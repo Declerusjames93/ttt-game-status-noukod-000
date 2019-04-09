@@ -65,7 +65,6 @@ end
 end
 
 
-
 #definition of function over? ,like if something happen
 def over?(board)
   if won?(board) || draw?(board) || full?(board)
