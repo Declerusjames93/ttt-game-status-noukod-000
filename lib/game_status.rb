@@ -34,7 +34,7 @@ def won?(board)
       return win_combination
     else
           return false
-        end
+  end
 }
 end
 
@@ -59,16 +59,9 @@ def draw?(board)
 end
 #definition of winner function
 def winner(board)
-  if !won?(board)
-    return nil
-  else WIN_COMBINATIONS.each do |win_combination|
-    if check_win_combination?(board, "X", win_combination)
-      return "X"
-    else check_win_combination?(board, "O", win_combination)
-      return "O"
-    end
-  end
-end
+  n_board=won?(board)
+  if 
+
 end
 
 
