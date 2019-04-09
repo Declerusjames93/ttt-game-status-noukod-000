@@ -35,8 +35,9 @@ def check_win_combination?(board, player, win_IT)
   end
 end
 
-#IS BOARD FULL?
+#definition of the full function
 def full?(board)
+  
   if board.include?(' ') || board.include?('')
     return false
 else
@@ -44,7 +45,7 @@ else
   end
 end
 
-#IS THERE A DRAW?
+#defintion of the drw function
 def draw?(board)
   if !won?(board) && full?(board)
     return true
