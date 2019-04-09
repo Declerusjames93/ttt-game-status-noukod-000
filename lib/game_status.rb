@@ -54,7 +54,7 @@ end
 
 def draw?(board)
   if !won?(board) && full?(board)
-    return true
+    return true 
   end
 end
 #definition of winner function
