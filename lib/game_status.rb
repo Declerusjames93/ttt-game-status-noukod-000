@@ -14,3 +14,17 @@ WIN_COMBINATIONS = [
   [2,5,8],
   [0,4,8],
   [6,4,2]]
+#Definition of the won method 
+def won?(board)
+  WIN_COMBINATIONS.each do |win_IT|
+    #check for player 1 win
+    if check_win_combination?(board, 'X', win_IT)
+      return win_IT
+      #check for player 2 win
+    elsif check_win_combination?(board, 'O', win_IT)
+      return win_IT
+    else
+      return false
+    end
+  end
+end
