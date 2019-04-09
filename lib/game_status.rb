@@ -59,7 +59,8 @@ def draw?(board)
 end
 #definition of winner function
 def winner(board)
-
+if win_combination=won?(board)
+  board[win_combination.first]
 
 end
 
