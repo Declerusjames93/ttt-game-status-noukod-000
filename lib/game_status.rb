@@ -64,7 +64,7 @@ def winner(board)
       return "O"
     end
   end
-end
+
 
 
 #definition of function over? ,like if something happen
