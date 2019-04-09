@@ -35,7 +35,7 @@ def check_win_combination?(board, player, win_IT)
   end
 end
 
-#IS BOARD FULL? 
+#IS BOARD FULL?
 def full?(board)
   if board.include?(' ') || board.include?('')
     return false
