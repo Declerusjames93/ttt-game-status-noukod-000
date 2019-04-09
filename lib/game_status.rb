@@ -32,7 +32,7 @@ def won?(board)
       return win_IT
     elsif position_1 == "X" && position_2 == "X" && position_3 == "X"
 }
-else 
+else
       return false
     end
   end
