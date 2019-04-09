@@ -61,7 +61,7 @@ def winner(board)
   else WIN_COMBINATIONS.each do |win_IT|
     if check_win_combination?(board, "X", win_IT)
       return "X"
-    else check_win_combination?(board, "O", win_IT)
+    elsif check_win_combination?(board, "O", win_IT)
       return "O"
     end
   end
