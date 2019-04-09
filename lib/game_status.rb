@@ -47,7 +47,7 @@ else
 end
 
 #defintion of the draw
- function
+
 def draw?(board)
   if !won?(board) && full?(board)
     return true
