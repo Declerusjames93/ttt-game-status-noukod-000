@@ -60,7 +60,7 @@ end
 #definition of winner function
 def winner(board)
   n_board=won?(board)
-  if 
+  if
 
 end
 
