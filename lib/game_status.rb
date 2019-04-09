@@ -36,7 +36,7 @@ def won?(board)
 else
       return false
     end
-  end
+
 
 #definition of the full function
 def full?(board)
