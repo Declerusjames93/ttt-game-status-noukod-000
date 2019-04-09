@@ -57,13 +57,6 @@ def draw?(board)
     return true
   end
 end
-#definition of winner function
-def winner(board)
-if win_combination = won?(board)
-  board[win_combination.first]
-end
-end
-
 
 #definition of function over? ,like if something happen
 def over?(board)
@@ -72,4 +65,10 @@ def over?(board)
   else
     return false
   end
+end
+#definition of winner function
+def winner(board)
+if win_combination = won?(board)
+  board[win_combination.first]
+end
 end
