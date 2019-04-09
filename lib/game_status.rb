@@ -42,7 +42,7 @@ end
 #definition of the full function
 def full?(board)
 
-  if board.include?(' ') || board.include?('')
+  if board.detect { |i| i == " " || i == nill}
     return false
 else
     return true
