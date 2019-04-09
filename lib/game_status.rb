@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 #Definition of the won method
 def won?(board)
- WIN_COMBINATIONS.each do |win_IT |
+ WIN_COMBINATIONS.each { |win_combination |
     # win_combination is a 3 element array of indexes that compose a win, [0,1,2]
     # grab each index from the win_combination that composes a win.
     win_index_1 = win_combination[0]
@@ -30,8 +30,9 @@ def won?(board)
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       return win_IT
-    else
-
+    elsif position_1 == "X" && position_2 == "X" && position_3 == "X"
+}
+else 
       return false
     end
   end
