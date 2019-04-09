@@ -1,5 +1,5 @@
 # Helper Method
-board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+
 index= "0".to_i
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
@@ -15,6 +15,7 @@ WIN_COMBINATIONS = [
   [2,5,8],
   [0,4,8],
   [6,4,2]]
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 #Definition of the won method
 def won?(board)
   WIN_COMBINATIONS.each do |win_IT|
