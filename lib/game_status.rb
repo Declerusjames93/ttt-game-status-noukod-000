@@ -36,7 +36,7 @@ def won?(board)
           return false
         end
 }
-
+end 
 
 
 #definition of the full function
