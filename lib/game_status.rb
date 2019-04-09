@@ -38,7 +38,7 @@ else
     end
   end
 end
-end 
+end
 #definition of the full function
 def full?(board)
 
