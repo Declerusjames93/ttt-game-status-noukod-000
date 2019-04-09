@@ -49,6 +49,12 @@ else
   end
 end
 
+
+def check_win_combination?(board, player, win_combination)
+  win_combo.all? do |position|
+    board[position] == player
+  end
+end
 #defintion of the draw
 
 def draw?(board)
