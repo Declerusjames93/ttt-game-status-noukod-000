@@ -26,7 +26,7 @@ def won?(board)
     elsif check_win_combination?(board, 'O', win_IT)
       return win_IT
     else
-      return nil 
+      return nil
     end
   end
 end
