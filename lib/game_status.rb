@@ -28,3 +28,25 @@ def won?(board)
     end
   end
 end
+
+def check_win_combination?(board, player, win_IT)
+  win_IT.all? do |position|
+    board[position] == player
+  end
+end
+
+#IS BOARD FULL? 
+def full?(board)
+  if board.include?(' ') || board.include?('')
+    return false
+else
+    return true
+  end
+end
+
+#IS THERE A DRAW?
+def draw?(board)
+  if !won?(board) && full?(board)
+    return true
+  end
+end
