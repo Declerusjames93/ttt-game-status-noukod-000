@@ -1,5 +1,6 @@
 # Helper Method
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+index= "0".to_i
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
