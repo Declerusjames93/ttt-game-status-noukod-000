@@ -36,7 +36,6 @@ def won?(board)
       false
     end
   end
-end
 
 def check_win_combination?(board, player, win_IT)
   win_IT.all? do |position|
