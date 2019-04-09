@@ -37,7 +37,7 @@ end
 
 #definition of the full function
 def full?(board)
-  
+
   if board.include?(' ') || board.include?('')
     return false
 else
