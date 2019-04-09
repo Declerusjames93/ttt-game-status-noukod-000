@@ -36,12 +36,6 @@ def won?(board)
   end
 end
 
-def check_win_combination?(board, player, win_IT)
-  win_IT.all? do |position|
-    board[position] == player
-  end
-end
-
 #definition of the full function
 def full?(board)
 
